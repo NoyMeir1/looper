@@ -1,0 +1,16 @@
+h1{
+    color: #a708c8;
+    margin: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.wrapper{
+    width: 80%;
+    background-color: white;
+    border: 10px solid #a708c8;
+    margin: auto;
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 10px 10px 8px #888888;
+}

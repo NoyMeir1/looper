@@ -1,0 +1,33 @@
+.channelBox {
+    text-align: center;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.playerBox {
+    alignment: center;
+    width: 600px;
+}
+
+.audioTitle {
+    display: flex;
+    width: 250px;
+    text-align: left;
+    margin-top: 12px;
+    font-family: 'Fredoka One', cursive, 'DM Serif Display', serif;
+}
+
+.durationTextBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -8px;
+}
+
+.mediaPlayer {
+    display: none;
+}
