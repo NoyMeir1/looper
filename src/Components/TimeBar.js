@@ -21,6 +21,7 @@ const TimeBar = () => {
 
         slider: {
             width: 600,
+            marginLeft: 0.5,
             alignItems:"center",
             justifyContent:"center"
         },
@@ -28,9 +29,9 @@ const TimeBar = () => {
         cursor:{
             width: "1px",
             backgroundColor: "black",
-            height: '64%',
+            height: '59%',
             position: "absolute",
-            left: `${(751 + ctx.position * 34).toString()}px`
+            left: `${(755 + ctx.position * 34).toString()}px`
         }
     }
 
@@ -46,7 +47,6 @@ const TimeBar = () => {
                 min={0}
                 max={18}
                 defaultValue={0}
-                step={0.1}
                 marks={true}
                 /* seconds tooltip */
                 valueLabelDisplay="on"
